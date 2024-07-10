@@ -1,0 +1,106 @@
+.heroImageIcon,
+.heyThisIsBastok {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.heyThisIsBastok {
+  width: 826.9px;
+  flex-shrink: 0;
+}
+.heroImageIcon {
+  width: 585px;
+  border-radius: var(--br-31xl);
+  object-fit: cover;
+  min-height: 666px;
+}
+.heroText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+}
+.learnMoreButton {
+  width: 181px;
+  height: 181px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroCallToAction {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-112xl);
+  min-width: 440px;
+  max-width: 100%;
+}
+.heroContent,
+.heyThisIsBastokParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroContent {
+  flex-direction: row;
+  gap: var(--gap-53xl);
+  flex-shrink: 0;
+}
+.heyThisIsBastokParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-34xl);
+  box-sizing: border-box;
+  gap: var(--gap-68xl);
+  text-align: right;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .heroImageIcon {
+    flex: 1;
+  }
+  .heroContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .heroText {
+    font-size: var(--font-size-19xl);
+  }
+  .heyThisIsBastokParent {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroCallToAction {
+    gap: var(--gap-46xl);
+    min-width: 100%;
+  }
+  .heroContent {
+    gap: var(--gap-17xl);
+  }
+  .heyThisIsBastokParent {
+    gap: var(--gap-24xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroText {
+    font-size: var(--font-size-10xl);
+  }
+  .heroCallToAction {
+    gap: var(--gap-14xl);
+  }
+  .heroContent {
+    gap: var(--gap-lg);
+  }
+  .heyThisIsBastokParent {
+    gap: var(--gap-3xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
